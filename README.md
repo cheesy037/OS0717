@@ -14,3 +14,4 @@ dataframe.select_dtypes(include, exclude)
 Parameter	Value	Description
 include	string|list	Which column(s) to include in the result. Required if the exclude parameter is not present.
 exclude	string|list	Which column(s) to exclude from the result. Required if the include parameter is not present.
+另外由於之後會使用power bi做自動化報表，其不支援巢狀列表。因此須注意將二維陣列轉換為一維陣列
